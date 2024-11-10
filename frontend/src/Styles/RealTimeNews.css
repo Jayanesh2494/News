@@ -1,0 +1,45 @@
+/* src/Styles/RealTimeNews.css */
+
+.real-time-news-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .news-articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .news-article {
+    width: 300px;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-article img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .news-article h2 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .news-article p {
+    font-size: 0.9rem;
+  }
+  
+  .news-article a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .news-article a:hover {
+    text-decoration: underline;
+  }
+  
