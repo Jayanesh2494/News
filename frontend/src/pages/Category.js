@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../Styles/Category.css";
 
-const API_KEY = "2119301bc4174631b7b4af97a5ab9d4f";
+const API_KEY = PROCESS.ENV.API_KEY;
 const url = "https://newsapi.org/v2/everything?q=";
 
 const Category = () => {
