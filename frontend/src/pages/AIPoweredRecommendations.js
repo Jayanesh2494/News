@@ -9,7 +9,7 @@ const AIPoweredRecommendations = () => {
   useEffect(() => {
     async function fetchRecommendedNews() {
       try {
-        const API_KEY = PROCESS.ENV.API_KEY;
+        const API_KEY = "2119301bc4174631b7b4af97a5ab9d4f";
         const url = `https://newsapi.org/v2/everything?q=AI&apiKey=${API_KEY}`;
         const res = await fetch(url);
         const data = await res.json();

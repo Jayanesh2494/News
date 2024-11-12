@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./newsStyles.css";
 
-const API_KEY = PROCESS.ENV.API_KEY;
+const API_KEY = "2119301bc4174631b7b4af97a5ab9d4f";
 const url = "https://newsapi.org/v2/everything?q=";
 
 const NewsApp = () => {

@@ -8,7 +8,7 @@ const RealTimeNews = () => {
   useEffect(() => {
     async function fetchNews() {
       try {
-        const API_KEY = PROCESS.ENV.API_KEY;
+        const API_KEY = "2119301bc4174631b7b4af97a5ab9d4f";
         const url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_KEY}`;
         const res = await fetch(url);
         const data = await res.json();
